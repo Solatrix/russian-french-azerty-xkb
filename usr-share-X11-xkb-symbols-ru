@@ -1,0 +1,59 @@
+// This is to be added at the very end of your /usr/share/X11/xkb/symbols/ru file
+partial alphanumeric_keys
+xkb_symbols "phonetic_azerty" {
+
+    include "level3(ralt_switch)"
+
+    name[Group1]= "Russian (phonetic, AZERTY)";
+	key <AE01> { [ U2116, 1, NoSymbol, NoSymbol ] }; // NUMERO SIGN, DIGIT ONE, <none>, <none>, <none>
+	key <AE02> { [ U002d, 2, NoSymbol, NoSymbol ] }; // HYPHEN-MINUS, DIGIT TWO, <none>, <none>, <none>
+	key <AE03> { [ U002f, 3, NoSymbol, NoSymbol ] }; // SOLIDUS, DIGIT THREE, <none>, <none>, <none>
+	key <AE04> { [ U0022, 4, NoSymbol, NoSymbol ] }; // QUOTATION MARK, DIGIT FOUR, <none>, <none>, <none>
+	key <AE05> { [ U003a, 5, NoSymbol, NoSymbol ] }; // COLON, DIGIT FIVE, <none>, <none>, <none>
+	key <AE06> { [ U002c, 6, NoSymbol, NoSymbol ] }; // COMMA, DIGIT SIX, <none>, <none>, <none>
+	key <AE07> { [ U002e, 7, NoSymbol, NoSymbol ] }; // FULL STOP, DIGIT SEVEN, <none>, <none>, <none>
+	key <AE08> { [ U005f, 8, U20bd, NoSymbol ] }; // LOW LINE, DIGIT EIGHT, <none>, <null>, <none>
+	key <AE09> { [ U003f, 9, NoSymbol, NoSymbol ] }; // QUESTION MARK, DIGIT NINE, <none>, <none>, <none>
+	key <AE10> { [ U0025, 0, NoSymbol, NoSymbol ] }; // PERCENT SIGN, DIGIT ZERO, <none>, <none>, <none>
+	key <AE11> { [ U0021, U003d, NoSymbol, NoSymbol ] }; // EXCLAMATION MARK, EQUALS SIGN, <none>, <none>, <none>
+	key <AE12> { [ U003b, U005c, NoSymbol, NoSymbol ] }; // SEMICOLON, REVERSE SOLIDUS, <none>, <none>, <none>
+	key <AD01> { [ U0430, U0410, U044f, U042f ] }; // CYRILLIC SMALL LETTER A, CYRILLIC CAPITAL LETTER A, <none>, CYRILLIC SMALL LETTER YA, CYRILLIC CAPITAL LETTER YA
+	key <AD02> { [ U0437, U0417, U0436, U0416 ] }; // CYRILLIC SMALL LETTER ZE, CYRILLIC CAPITAL LETTER ZE, <none>, CYRILLIC SMALL LETTER ZHE, CYRILLIC CAPITAL LETTER ZHE
+	key <AD03> { [ U0435, U0415, U044d, U042d ] }; // CYRILLIC SMALL LETTER IE, CYRILLIC CAPITAL LETTER IE, <none>, CYRILLIC SMALL LETTER E, CYRILLIC CAPITAL LETTER E
+	key <AD04> { [ U0440, U0420, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER ER, CYRILLIC CAPITAL LETTER ER, <none>, <none>, <none>
+	key <AD05> { [ U0442, U0422, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER TE, CYRILLIC CAPITAL LETTER TE, <none>, <none>, <none>
+	key <AD06> { [ U044b, U042b, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER YERU, CYRILLIC CAPITAL LETTER YERU, <none>, <none>, <none>
+	key <AD07> { [ U0443, U0423, U044e, U042e ] }; // CYRILLIC SMALL LETTER U, CYRILLIC CAPITAL LETTER U, <none>, CYRILLIC SMALL LETTER YU, CYRILLIC CAPITAL LETTER YU
+	key <AD08> { [ U0438, U0418, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER I, CYRILLIC CAPITAL LETTER I, <none>, <none>, <none>
+	key <AD09> { [ U043e, U041e, U0451, U0401 ] }; // CYRILLIC SMALL LETTER O, CYRILLIC CAPITAL LETTER O, <none>, CYRILLIC SMALL LETTER IO, CYRILLIC CAPITAL LETTER IO
+	key <AD10> { [ U043f, U041f, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER PE, CYRILLIC CAPITAL LETTER PE, <none>, <none>, <none>
+	key <AD11> { [ U0301, NoSymbol, NoSymbol, NoSymbol ] }; // COMBINING ACUTE ACCENT (Oxia, Tonos), <none>, <none>, <none>, <none>
+	key <AD12> { [ U0024, U00a3, NoSymbol, NoSymbol ] }; // DOLLAR SIGN, POUND SIGN, ESCAPE, <none>, <none>
+	key <AC01> { [ U0444, U0424, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER EF, CYRILLIC CAPITAL LETTER EF, <none>, <none>, <none>
+	key <AC02> { [ U0441, U0421, U0448, U0428 ] }; // CYRILLIC SMALL LETTER ES, CYRILLIC CAPITAL LETTER ES, <none>, CYRILLIC SMALL LETTER SHA, CYRILLIC CAPITAL LETTER SHA
+	key <AC03> { [ U0434, U0414, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER DE, CYRILLIC CAPITAL LETTER DE, <none>, <none>, <none>
+	key <AC04> { [ U0444, U0424, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER EF, CYRILLIC CAPITAL LETTER EF, <none>, <none>, <none>
+	key <AC05> { [ U0433, U0413, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER GHE, CYRILLIC CAPITAL LETTER GHE, <none>, <none>, <none>
+	key <AC06> { [ U0445, U0425, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER HA, CYRILLIC CAPITAL LETTER HA, <none>, <none>, <none>
+	key <AC07> { [ U0439, U0419, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER SHORT I, CYRILLIC CAPITAL LETTER SHORT I, <none>, <none>, <none>
+	key <AC08> { [ U043a, U041a, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER KA, CYRILLIC CAPITAL LETTER KA, <none>, <none>, <none>
+	key <AC09> { [ U043b, U041b, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER EL, CYRILLIC CAPITAL LETTER EL, <none>, <none>, <none>
+	key <AC10> { [ U043c, U041c, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER EM, CYRILLIC CAPITAL LETTER EM, INFORMATION SEPARATOR THREE, <none>, <none>
+	key <AC11> { [ U00f9, U0025, NoSymbol, NoSymbol ] }; // LATIN SMALL LETTER U WITH GRAVE, PERCENT SIGN, <none>, <none>, <none>
+	key <TLDE> { [ U007c, U002b, NoSymbol, NoSymbol ] }; // VERTICAL LINE, PLUS SIGN, <none>, <none>, <none>
+	key <BKSL> { [ U002a, U00b5, NoSymbol, NoSymbol ] }; // ASTERISK, MICRO SIGN, INFORMATION SEPARATOR FOUR, <none>, <none>
+	key <AB01> { [ U0449, U0429, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER SHCHA, CYRILLIC CAPITAL LETTER SHCHA, <none>, <none>, <none>
+	key <AB02> { [ U044c, U042c, U044a, U042a ] }; // CYRILLIC SMALL LETTER SOFT SIGN, CYRILLIC CAPITAL LETTER SOFT SIGN, <none>, CYRILLIC SMALL LETTER HARD SIGN, CYRILLIC CAPITAL LETTER HARD SIGN
+	key <AB03> { [ U0446, U0426, U0447, U0427 ] }; // CYRILLIC SMALL LETTER TSE, CYRILLIC CAPITAL LETTER TSE, <none>, CYRILLIC SMALL LETTER CHE, CYRILLIC CAPITAL LETTER CHE
+	key <AB04> { [ U0432, U0412, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER VE, CYRILLIC CAPITAL LETTER VE, <none>, <none>, <none>
+	key <AB05> { [ U0431, U0411, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER BE, CYRILLIC CAPITAL LETTER BE, <none>, <none>, <none>
+	key <AB06> { [ U043d, U041d, NoSymbol, NoSymbol ] }; // CYRILLIC SMALL LETTER EN, CYRILLIC CAPITAL LETTER EN, <none>, <none>, <none>
+	key <AB07> { [ U002c, U003f, NoSymbol, NoSymbol ] }; // COMMA, QUESTION MARK, <none>, <none>, <none>
+	key <AB08> { [ U003b, U002e, NoSymbol, NoSymbol ] }; // SEMICOLON, FULL STOP, <none>, <none>, <none>
+	key <AB09> { [ U003a, U002f, NoSymbol, NoSymbol ] }; // COLON, SOLIDUS, <none>, <none>, <none>
+	key <AB10> { [ U0021, U00a7, NoSymbol, NoSymbol ] }; // EXCLAMATION MARK, SECTION SIGN, <none>, <none>, <none>
+	key <SPCE> { [ U0020, U0020, NoSymbol, NoSymbol ] }; // SPACE, SPACE, SPACE, <none>, <none>
+	key <LSGT> { [ U0029, U0028, NoSymbol, NoSymbol ] }; // RIGHT PARENTHESIS, LEFT PARENTHESIS, INFORMATION SEPARATOR FOUR, <none>, <none>
+	key <KPDL> { [ U002c, U002c, NoSymbol, NoSymbol ] }; // COMMA, COMMA, , ,
+
+};

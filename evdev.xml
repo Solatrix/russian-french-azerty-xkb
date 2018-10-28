@@ -1,0 +1,18 @@
+<!-- DO NOT OVERRIDE THIS : it is just an indication to show where to copy the new entry -->
+
+<shortDescription>ru</shortDescription>
+<description>Russian</description>
+<languageList>
+  <iso639Id>rus</iso639Id>
+</languageList>
+<variantList>
+	<!-- Add this to the end of the Russian language section in your evdev.xml file -->
+	<!-- You shall only add this to the evdev.xml file -->
+	<variant>
+      <configItem>
+        <name>phonetic_fr</name>
+        <description>Russian (phonetic, French)</description>
+      </configItem>
+  </variant>
+  <!-- End of new variant -->
+</variantList>
