@@ -36,7 +36,7 @@ i.e : `с + AltGR = ш`
  
  - [Karol Stasiak's Blog](https://karols.github.io/blog/2013/11/18/creating-custom-keyboard-layouts-for-linux/)
  - [LSDevLinux Wiki](http://linux.lsdev.sil.org/wiki/index.php/Building_an_XKB_Keyboard)
- - [Ubuntu's official documentation on customizing keyboard layouts] (https://help.ubuntu.com/community/Custom%20keyboard%20layout%20definitions?action=show&redirect=Howto%3A+Custom+keyboard+layout+definitions)
+ - [Ubuntu's official documentation on customizing keyboard layouts](https://help.ubuntu.com/community/Custom%20keyboard%20layout%20definitions?action=show&redirect=Howto%3A+Custom+keyboard+layout+definitions)
  
 ### Special thanks to 
 [Alexriss](https://github.com/alexriss) for his [Keyboard converter](https://github.com/alexriss/keyboard-layout-converter) that basically enabled me to convert my old windows klc file to make it compatible with Linux distros
