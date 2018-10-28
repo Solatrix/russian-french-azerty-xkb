@@ -21,7 +21,7 @@ i.e : `с + AltGR = ш`
   
   
   ## Installation guidelines
-  I'm personnaly a user of SolusOS, but the proceedings are essentially the same for Debian-based distros, at least to the best of my knowledge (Feel free to add instructions for other distros in there).
+  I'm personally a user of SolusOS, but the proceedings are essentially the same for Debian-based distros, at least to the best of my knowledge (Feel free to add instructions for other distros in there).
   
   *Editing system files is not recommended for newbies, be careful and please backup original files before doing anything stupid*
   
